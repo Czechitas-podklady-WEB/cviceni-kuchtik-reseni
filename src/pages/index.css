@@ -1,0 +1,16 @@
+h1 {
+  font: 3rem "Quintessential", serif;
+  margin: 2rem 0 0 0;
+}
+
+.note {
+  font: 1rem "Quintessential", serif;
+  font-style: italic;
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+
+footer {
+  font-size: smaller;
+  margin-top: 1rem;
+}
