@@ -1,0 +1,20 @@
+.recept {
+  max-width: 60rem;
+  margin: 0 auto;
+  background-color: #F4ECE3;
+  border-radius: 1rem;
+}
+
+.recept__image {
+  max-width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.recept__popis {
+  padding: 0 1rem 1rem 1rem;
+}
+
+h1,
+h2 {
+  color: #AF9B84;
+}
