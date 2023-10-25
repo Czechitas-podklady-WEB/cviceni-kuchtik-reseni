@@ -1,0 +1,50 @@
+.formular {
+  background-color: #F4ECE3;
+  border-radius: 1rem;
+  padding: 1rem;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.formular__nadpis {
+  margin: 1rem 0;
+  color: #AF9B84;
+  font-weight: bold;
+}
+
+.formular__polozka {
+  margin-bottom: 1rem;
+}
+
+.formular__label {
+  display: block;
+  color: #AF9B84;
+  font-weight: bold;
+}
+
+.formular__input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #AF9B84;
+  border-radius: 0.25rem;
+  background-color: white;
+}
+
+.formular__textarea {
+  height: 120px;
+}
+
+.formular__button--div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formular__button {
+  background-color: #AF9B84;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
