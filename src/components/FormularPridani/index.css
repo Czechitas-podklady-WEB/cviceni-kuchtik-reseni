@@ -16,6 +16,16 @@
   margin-bottom: 1rem;
 }
 
+.formular__polozka--2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.formular__polozka--2 > * {
+  flex: 1;
+}
+
 .formular__label {
   display: block;
   color: #AF9B84;

@@ -1,5 +1,5 @@
-import React from 'react';
-import './index.css';
+import React from "react";
+import "./index.css";
 
 export const FormularPridani = () => {
   return (
@@ -11,32 +11,34 @@ export const FormularPridani = () => {
         </label>
         <input type="text" id="nazev" required className="formular__input" />
       </div>
-      <div className="formular__polozka">
-        <label htmlFor="porce" className="formular__label">
-          Počet porcí
-        </label>
-        <input
-          type="number"
-          id="porce"
-          defaultValue="4"
-          min={1}
-          required
-          className="formular__input"
-        />
-      </div>
-      <div className="formular__polozka">
-        <label htmlFor="doba" className="formular__label">
-          Doba přípravy (v minutách)
-        </label>
-        <input
-          type="number"
-          id="doba"
-          defaultValue="60"
-          min={0}
-          step={10}
-          required
-          className="formular__input"
-        />
+      <div className="formular__polozka formular__polozka--2">
+        <div>
+          <label htmlFor="porce" className="formular__label">
+            Počet porcí
+          </label>
+          <input
+            type="number"
+            id="porce"
+            defaultValue="4"
+            min={1}
+            required
+            className="formular__input"
+          />
+        </div>
+        <div>
+          <label htmlFor="doba" className="formular__label">
+            Doba přípravy (v minutách)
+          </label>
+          <input
+            type="number"
+            id="doba"
+            defaultValue="60"
+            min={0}
+            step={10}
+            required
+            className="formular__input"
+          />
+        </div>
       </div>
       <div className="formular__polozka">
         <label htmlFor="ingredience" className="formular__label">
@@ -64,8 +66,9 @@ export const FormularPridani = () => {
           Adresa obrázku
         </label>
         <input
-          type="obrazek"
+          type="url"
           id="obrazek"
+          placeholder="https://www.example.com/recepty/obrazek-3"
           required
           className="formular__input"
         />
