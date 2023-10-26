@@ -22,7 +22,7 @@ document.querySelector('#root').innerHTML = render(
     />
     <div className="odkaz__zpet">
       <a href="/" className="odkaz__zpet-link">
-        Zpět na seznam receptů
+        ← Zpět na seznam receptů
       </a>
     </div>
   </>,
